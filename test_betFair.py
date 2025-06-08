@@ -1,8 +1,8 @@
 import threading
 import queue
 
-from SCRAP.DESARROLLO.tenis_betFair import ThreadBetFair
-from SCRAP.DESARROLLO.tenis_bet import ThreadBet
+from crawler.tenis_betFair import ThreadBetFair
+from crawler.tenis_bet import ThreadBet
 
 if __name__ == "__main__":
 	cola1 = queue.Queue()
